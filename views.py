@@ -1,0 +1,4 @@
+from django.http import HttpResponse
+
+def index(request): # request-
+    return HttpResponse('''<center><h1>Personal Navigator</h1></center><br><h2>Frequently used sites:<ul><li><a href="https://www.gmail.com/"> Gmail </a><li> <a href="https://www.worldometers.info/coronavirus/#countries"> Coronavirus World Report </a><li> <a href="https://www.covid19india.org/"> Coronavirus India </a><li> <a href="https://www.youtube.com/"> Youtube </a><li> <a href="https://www.twitter.com/"> Twitter </a><br><li> <a href="https://www.instagram.com/">Instagram </a><br><li> <a href="https://www.facebook.com/"> Facebook </a></ul></h2>''')
